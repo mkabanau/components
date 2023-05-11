@@ -12,8 +12,6 @@ export interface WalletContent2020 {
 }
 
 export interface QueryContent2020 {
-    ById?: string
-    ByType?: string
-    Bytag?: string
-    ByController?: string
+    type: string
+    credentialQuery: any
 }

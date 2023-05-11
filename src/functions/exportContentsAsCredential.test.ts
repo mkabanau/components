@@ -14,7 +14,7 @@ it("exportContentsAsCredential", async () => {
     password,
     content
   );
-  log(encryptedWalletCredential)
+  // log(encryptedWalletCredential)
   expect(encryptedWalletCredential.type).toEqual([
     "VerifiableCredential",
     "EncryptedWallet"
